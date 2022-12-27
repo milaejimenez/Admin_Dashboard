@@ -123,7 +123,7 @@ button {
 
 .title {
     font-size: 1.3rem;
-    padding: 10px 0 20px 0;
+    padding: 10px 0 15px 0;
 }
 
 .projects {
@@ -169,8 +169,11 @@ button {
     padding: 20px;
 }
 
-.announcement-container {
+.announcement-container, .trending-container {
     background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .announcement-container div {
@@ -183,7 +186,8 @@ button {
     border-bottom: 1px solid grey;
 }
 
-.announcement-container div p {
+.announcement-container div p,
+.other-users div p {
     font-size: 0.9rem;
     font-weight: 300;
 }
@@ -194,8 +198,14 @@ button {
     padding: 20px;
 }
 
-.trending-container {
-    background-color: white;
+.other-users {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.other-users img {
+    padding-right: 10px;
 }
 
 
