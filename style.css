@@ -30,6 +30,8 @@ header {
 }
 
 .search-field {
+    display: flex;
+    align-items: center;
     margin-right: auto;
 }
 
@@ -100,7 +102,7 @@ button {
 
 .sidebar ul li {
     padding: 0.6ch;
-    font-size: clamp(1rem, 1.6vw, 1.5rem);
+    font-size: clamp(0.9rem, 1.6vw, 1.5rem);
 }
 
 .sidebar svg {
