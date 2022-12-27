@@ -163,15 +163,40 @@ button {
     margin: 0 10px;
 }
 
+/* Annoouncements Section */
 .announcements {
     grid-area: 1 / 2 / 2 / 3;
+    padding: 20px;
 }
 
+.announcement-container {
+    background-color: white;
+}
+
+.announcement-container div {
+    padding: 10px;
+    margin: 20px;
+}
+
+.announcement-container div:nth-child(2) {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.announcement-container div p {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+/* Trending section */
 .trending {
     grid-area: 2 / 2 / 3 / 3;
+    padding: 20px;
 }
 
-
+.trending-container {
+    background-color: white;
+}
 
 
 
