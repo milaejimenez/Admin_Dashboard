@@ -13,6 +13,10 @@ body {
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
 }
+
+p {
+    margin: 0;
+}
 /* Page header with search field and buttons */
 header {
     grid-column: 2 / 3;
@@ -108,6 +112,70 @@ button {
     grid-row: 2 / 3;
 }
 
+
+/* Main Content */
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: lightgray;
+}
+
+.title {
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+}
+
+.projects {
+    grid-area: 1 / 1 / 3 / 2;
+    padding: 20px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    border-left: 6px solid darkgoldenrod;
+    height: 250px;
+    padding: 30px;
+    font-weight: 300;
+}
+
+.project-description p:first-child {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.icons {
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+.icons svg {
+    margin: 0 10px;
+}
+
+.announcements {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.trending {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+
+
+
+
+/* Credits */
 .flaticon {
     position: absolute;
     bottom: 0;
@@ -116,5 +184,4 @@ button {
     text-decoration: none;
     font-weight: lighter;
     font-size: 0.6rem;
-
 }
