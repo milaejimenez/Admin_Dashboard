@@ -38,7 +38,7 @@ header {
     background-color: lightgrey;
 }
 
-.upper-buttons {
+.upper-buttons, .lower-bar {
     display: flex;
     align-items: center;
 }
@@ -47,9 +47,32 @@ header {
     margin: 0px 15px;
 }
 
-
 .upper-buttons p {
     font-size: 1.3rem;
+}
+
+.user-greeting {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.greetings {
+    align-content: center;
+    margin-left: 10px;
+}
+
+.username {
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: lightskyblue;
+    width: 100px;
+    height: 38px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 15px;
 }
 
 /* Sidebar with nav */
